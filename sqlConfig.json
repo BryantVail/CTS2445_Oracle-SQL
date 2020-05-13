@@ -1,0 +1,14 @@
+{
+  "users": {
+    "users": [
+      {
+        "username": "admin",
+        "password": "SqlServer*"
+      },
+      {
+        "username": "bvail",
+        "password": "sysdbadmin"
+      }
+    ]
+  }
+}
