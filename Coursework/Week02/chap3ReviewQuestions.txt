@@ -1,0 +1,37 @@
+-- Bryant Vail
+-- Chapter 3
+
+-- 2
+1. Varchar2, 'string of characters'
+2. DATE, '02-apr-09'
+3. Number(4, 2), 20.15
+4. CHAR(2), 'GA'
+
+-- 3 What guidelines should you follow when naming tables and columns in Oracle 12c?
+1. 'The names of tables and columns can be as large as 30 characters and must begin with a letter- these limitations are on naming tables & columns & not the values they hold.'
+2. 'Names of tables cannot have blank spaces.'
+3. 'Numbers, underscore, numberSign/pound are allowed in table & column names.'
+4. 'Each table owned by a user should have a unique table name, and the column names in each table should be unique.'
+5. 'Avoid Reserved Words like: SELECT, DISTINCT, CHAR, NUMBER, LIKE, FROM, WHERE.'
+
+
+-- 4 What is the difference between dropping a column and setting a column as unused?
+'Dropping a column removes the column & all the data, essentially removing it from the table, whereas setting the column as "unused" marks the column for later removal by using the "DROP UNUSED COLUMNS". This is to avoid what could be an expensive action on the database that might impact current query execution- so the drop is done at a later time to prevent this. '
+
+-- 5 How many columns can be dropped in one ALTER TABLE command?
+'Only 1 column can be dropped at a time.'
+
+-- 7 Explain the difference between truncating a table and deleting a table.
+'Deleting a table moves the table, its contents, and the data structure itself all to the recycle bin. Truncating, removes all data from the table structure, but leaves the table definition in place.'
+
+-- Adv 1
+
+
+
+
+
+
+
+
+
+

@@ -1,14 +1,44 @@
 {
-  "users": {
-    "users": [
-      {
-        "username": "admin",
-        "password": "SqlServer*"
-      },
-      {
-        "username": "bvail",
-        "password": "sysdbadmin"
-      }
-    ]
-  }
+  "databases": [
+    {
+      "databaseMake": "Oracle",
+      "version": "12c",
+      "globalDatabaseName": "orcl.CTS2445_12c.local",
+      "pluggableDatabaseName": "CTS2445_12c",
+      "databaseFileLocation": "C:\\app\\bvail\\virtual\\oradata",
+      "installMessage": "Oracle Enterprise Manager Database Express URL: https://localhost:5500/em",
+      "Users": [
+        {
+          "username": "",
+          "password": "Sysdbadmin_cts2445"
+        }
+      ]
+    },
+    {
+      "databaseMake": "Oracle",
+      "version": "11.?",
+      "users": [
+        {
+          "username": "admin",
+          "password": "SqlServer*"
+        },
+        {
+          "username": "bvail",
+          "password": "sysdbadmin"
+        }
+      ]
+    }
+  ],
+  "helpDocs": [
+    {
+      "description": "uninstall-oracle",
+      "url": "http://www.rebellionrider.com/how-to-uninstall-oracle-database-12c-rebellionrider/",
+      "publicationDate": "2019-01-02"
+    },
+    {
+      "description": "CDB: Multitenant Container Databses and queries for info",
+      "URL": "https://oracle-base.com/articles/12c/multitenant-connecting-to-cdb-and-pdb-12cr1",
+      "publicationDate": ""
+    }
+  ]
 }
